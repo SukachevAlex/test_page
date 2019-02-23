@@ -1,0 +1,22 @@
+[
+  {
+    "type": "facebook",
+    "link": "https://facebook.html",
+    "title": "Link to facebook"
+  },
+  {
+    "type": "twitter",
+    "link": "https://twitter.com/",
+    "title": "Link to twitter"
+  },
+  {
+    "type": "linkedin",
+    "link": "https://www.linkedin.com/",
+    "title": "Link to linkedin"
+  },
+  {
+    "type": "google",
+    "link": "https://plus.google.com/",
+    "title": "Link to google+"
+  }
+]

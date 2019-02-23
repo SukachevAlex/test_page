@@ -1,0 +1,23 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e9eae2;
+}
+
+.Header-Social {
+  margin-top: 60px;
+}
+
+.Header-Left {
+  padding: 50px 0 0 169px;
+}
+
+.Header-Image {
+  padding-top: 50px;
+}
+
+.Header-Menu {
+  position: absolute;
+  top: 50px;
+  right: 166px;
+}

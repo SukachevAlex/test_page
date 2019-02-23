@@ -1,0 +1,100 @@
+.Menu {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.Menu-Nav {
+  margin: 0 38px 0 53px;
+  display: none;
+}
+
+.Menu:hover {
+  background-color: #f8c255;
+}
+
+.Menu:hover .Menu-Nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Menu:hover .Menu-Burger {
+  border-color: transparent;
+
+}
+
+.Menu-Item {
+  margin-left: 65px;
+  display: block;
+  font-family: Roboto;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: opacity 0.25s ease;
+}
+
+.Menu-Item:hover {
+  opacity: 0.75;
+}
+
+.Menu-Item:first-of-type {
+  margin-left: 0;
+}
+
+.Menu-Burger {
+  max-width: 120px;
+  padding: 55px 40px;
+  box-sizing: border-box;
+  border: 2px solid #e9eae2;
+  cursor: pointer;
+}
+
+.Menu-Item {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+
+.Menu-Line {
+  width: 40px;
+  height: 3px;
+  background-color: #e9eae2;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.Menu:hover .Menu-Line {
+  background-color: transparent;
+}
+
+.Menu-Line::after, .Menu-Line::before {
+  content: '';
+  display: block;
+  background-color: #e9eae2;
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  transition: all 0.25s ease;
+}
+
+.Menu-Line::after {
+  top: 7px;
+}
+
+.Menu:hover .Menu-Line::after {
+  top: 0;
+  transform: rotate(45deg);
+}
+
+.Menu-Line::before {
+  top: -7px;
+}
+
+.Menu:hover .Menu-Line::before {
+  top: 0;
+  transform: rotate(-45deg);
+}

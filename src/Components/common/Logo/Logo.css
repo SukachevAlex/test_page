@@ -1,0 +1,13 @@
+.Logo-Link {
+  display: inline-block;
+}
+
+.Logo-Text {
+  margin: 0;
+  max-width: 100px;
+  color: #393d3c;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: uppercase;
+}

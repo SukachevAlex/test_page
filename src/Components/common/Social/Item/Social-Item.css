@@ -1,0 +1,33 @@
+.Social-Item {
+  width: 25px;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: opacity 0.25s ease;
+}
+
+.Social-Item:hover {
+  opacity: 0.75;
+}
+
+.Social-Item:first-of-type {
+  margin-left: 0;
+}
+
+.Social-Item_type_facebook {
+  background-image: url(./images/facebook.svg);
+}
+
+.Social-Item_type_twitter {
+  background-image: url(./images/twitter.svg);
+}
+
+.Social-Item_type_google {
+  background-image: url(./images/google.svg);
+}
+
+.Social-Item_type_linkedin {
+  background-image: url(./images/linkedin.svg);
+}

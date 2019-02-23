@@ -1,0 +1,35 @@
+.Filter {
+  display: flex;
+  flex-direction: column;
+}
+
+.Filter-Item {
+  padding-left: 29px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: opacity 0.25s ease;
+}
+
+.Filter-Item:hover {
+  opacity: 0.75;
+}
+
+.Filter-Item_active {
+  color: #000000;
+  position: relative;
+}
+
+.Filter-Item_active::after {
+  content: "\2192";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 19px;
+  line-height: 15px;
+  margin-top: -5px;
+}

@@ -1,0 +1,20 @@
+.Main {
+  display: flex;
+}
+
+.Main-Title {
+  margin: 72px 0 0 77px;
+  color: #fefefe;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.Main-Start {
+  padding: 170px 51px 171px 135px;
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #ebb240;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='width: 100%25; height: 100%25;'%3E%3Cline x1='0' y1='100%25' x2='100%25' y2='0' style='stroke:rgb(255,255,255);stroke-width:2'/%3E%3C/svg%3E");
+}

@@ -45,7 +45,7 @@
 }
 
 .Menu-Burger {
-  max-width: 120px;
+  max-width: 125px;
   padding: 55px 40px;
   box-sizing: border-box;
   border: 2px solid #e9eae2;
@@ -97,4 +97,29 @@
 .Menu_active .Menu-Line::before {
   top: 0;
   transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 1100px) {
+  .Menu-Item {
+    margin-left: 35px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Menu-Burger {
+    padding: 35px 20px;
+  }
+
+  .Menu_active {
+    flex-direction: column;
+  }
+
+  .Menu-Nav {
+    flex-direction: column;
+  }
+
+  .Menu-Item {
+    margin-left: 0;
+    padding: 10px 20px;
+  }
 }

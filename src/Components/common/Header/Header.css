@@ -1,6 +1,7 @@
 .Header {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   background-color: #e9eae2;
 }
 
@@ -19,5 +20,66 @@
 .Header-Menu {
   position: absolute;
   top: 50px;
-  right: 166px;
+  right: 152px;
+}
+
+@media screen and (max-width: 1400px) {
+  .Address {
+    order: 2;
+    max-width: auto;
+  }
+
+  .Header-Image {
+    margin: 0 auto;
+    width: 50%;
+    order: 3;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .Address {
+    width: 100%;
+    order: 1;
+  }
+
+  .Header-Left {
+    order: 2;
+  }
+
+  .Header-Menu {
+    right: 60px;
+  }
+
+  .Header-Left {
+    padding-left: 60px;
+  }
+
+  .Address .Address-Info {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 468px) {
+
+  .Header .Address {
+    min-width: auto;
+  }
+
+  .Header-Image {
+    width: 80%;
+  }
+
+  .Header-Left {
+    width: 100%;
+    padding: 50px;
+    text-align: center;
+  }
+
+  .Header-Left .Logo-Text {
+    margin: 0 auto;
+  }
+
+  .Header-Social {
+    justify-content: center;
+  }
 }

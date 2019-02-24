@@ -21,3 +21,33 @@
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' style='width: 100%25; height: 100%25;'%3E%3Cline x1='0' y1='100%25' x2='100%25' y2='0' style='stroke:rgb(255,255,255);stroke-width:2'/%3E%3C/svg%3E");
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1400px) {
+  .Main {
+    flex-direction: column;
+  }
+
+  .Main-Start {
+    padding: 50px;
+    width: 100%;
+    max-width: none;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-image: none;
+  }
+
+  .Main-Title {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .Main-Start {
+    flex-direction: column;
+  }
+
+  .Main-Title {
+    margin-bottom: 40px;
+  }
+}

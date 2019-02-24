@@ -1,6 +1,7 @@
 .Address {
   padding: 50px 169px 100px 60px;
   min-width: 465px;
+  min-height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;

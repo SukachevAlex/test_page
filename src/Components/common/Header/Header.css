@@ -20,7 +20,7 @@
 .Header-Menu {
   position: absolute;
   top: 50px;
-  right: 152px;
+  right: 160px;
 }
 
 @media screen and (max-width: 1400px) {
@@ -37,9 +37,11 @@
 }
 
 @media screen and (max-width: 800px) {
-  .Address {
+  .Header .Address {
     width: 100%;
     order: 1;
+    background-image: none;
+    min-height: 300px;
   }
 
   .Header-Left {
@@ -59,7 +61,7 @@
   }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 482px) {
 
   .Header .Address {
     min-width: auto;

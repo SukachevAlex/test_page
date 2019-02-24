@@ -2,3 +2,9 @@
   display: grid;
   grid-template-columns: minmax(465px, 2fr) minmax(465px, 1fr);
 }
+
+@media screen and (max-width: 1050px) {
+  .Project {
+    grid-template-columns: 1fr;
+  }
+}

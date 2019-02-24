@@ -5,6 +5,7 @@
 
 .Filter-Item {
   padding-left: 29px;
+  max-width: 80px;
   color: #ffffff;
   font-size: 13px;
   font-weight: 400;

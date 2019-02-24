@@ -9,16 +9,16 @@
   display: none;
 }
 
-.Menu:hover {
+.Menu_active {
   background-color: #f8c255;
 }
 
-.Menu:hover .Menu-Nav {
+.Menu_active .Menu-Nav {
   display: flex;
   justify-content: flex-end;
 }
 
-.Menu:hover .Menu-Burger {
+.Menu_active .Menu-Burger {
   border-color: transparent;
 
 }
@@ -67,7 +67,7 @@
   transition: all 0.25s ease;
 }
 
-.Menu:hover .Menu-Line {
+.Menu_active .Menu-Line {
   background-color: transparent;
 }
 
@@ -85,7 +85,7 @@
   top: 7px;
 }
 
-.Menu:hover .Menu-Line::after {
+.Menu_active .Menu-Line::after {
   top: 0;
   transform: rotate(45deg);
 }
@@ -94,7 +94,7 @@
   top: -7px;
 }
 
-.Menu:hover .Menu-Line::before {
+.Menu_active .Menu-Line::before {
   top: 0;
   transform: rotate(-45deg);
 }

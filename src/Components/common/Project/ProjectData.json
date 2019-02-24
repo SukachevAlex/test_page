@@ -1,0 +1,37 @@
+[
+  {
+    "name": "fondue",
+    "imageSrc": "fondue.png",
+    "bgColor": "#ffffff",
+    "description": [
+      ["Project Assistant", "FRANCESCO DOMPIERI"],
+      ["Material", "GLASS AND METAL"],
+      ["Typology", "SUSPENSION LAMP"],
+      ["Client", "DAVID DESIGN"],
+      ["Year", "2014"]
+    ],
+    "rating": "200",
+    "type": "big"
+  },
+  {
+    "name": "potter",
+    "imageSrc": "potter.png",
+    "bgColor": "#dfe0d9",
+    "description": [
+      ["for", "STELTON"],
+      ["", "Potter focuses on the functionality and process of preparing tea. a big sieve allows the flavor of to evenly brewed. "]
+    ],
+    "rating": "200"
+  },
+  {
+    "name": "fiji",
+    "imageSrc": "fiji.png",
+    "bgColor": "#ffffff",
+    "description": [
+      ["designer", "CUNO FROMMHERZ"],
+      ["Typology", "ARMCHAIRS"],
+      ["Year", "2012"]
+    ],
+    "rating": "200"
+  }
+]

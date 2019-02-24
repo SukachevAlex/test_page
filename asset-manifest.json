@@ -1,0 +1,19 @@
+{
+  "main.css": "./static/css/main.1dd97d2e.chunk.css",
+  "main.js": "./static/js/main.addf64db.chunk.js",
+  "main.js.map": "./static/js/main.addf64db.chunk.js.map",
+  "runtime~main.js": "./static/js/runtime~main.9eb600ee.js",
+  "runtime~main.js.map": "./static/js/runtime~main.9eb600ee.js.map",
+  "static/js/2.a778f20e.chunk.js": "./static/js/2.a778f20e.chunk.js",
+  "static/js/2.a778f20e.chunk.js.map": "./static/js/2.a778f20e.chunk.js.map",
+  "index.html": "./index.html",
+  "precache-manifest.ed414485b08e0c5f94a83f6ef957da99.js": "./precache-manifest.ed414485b08e0c5f94a83f6ef957da99.js",
+  "service-worker.js": "./service-worker.js",
+  "static/css/main.1dd97d2e.chunk.css.map": "./static/css/main.1dd97d2e.chunk.css.map",
+  "static/media/Social-Item.css": "./static/media/twitter.943ee208.svg",
+  "static/media/fiji.png": "./static/media/fiji.caeb00f5.png",
+  "static/media/fondue.png": "./static/media/fondue.2eaef50d.png",
+  "static/media/image.png": "./static/media/image.e1b0fde9.png",
+  "static/media/potter.png": "./static/media/potter.c8d90767.png",
+  "static/media/fonts.css": "./static/media/roboto-condensed-v16-latin-regular.f1fd7015.eot"
+}
